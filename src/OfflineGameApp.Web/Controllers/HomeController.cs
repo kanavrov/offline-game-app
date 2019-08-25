@@ -1,17 +1,12 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using PortfolioBuilder.Web.Models;
+using OfflineGameApp.Web.Models;
 
-namespace PortfolioBuilder.Web.Controllers
+namespace OfflineGameApp.Web.Controllers
 {
 	public class HomeController : Controller
 	{
 		public IActionResult Index()
-		{
-			return View();
-		}
-
-		public IActionResult Privacy()
 		{
 			return View();
 		}

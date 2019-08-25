@@ -1,6 +1,6 @@
 using System;
 
-namespace PortfolioBuilder.Web.Models
+namespace OfflineGameApp.Web.Models
 {
 	public class ErrorViewModel
 	{
