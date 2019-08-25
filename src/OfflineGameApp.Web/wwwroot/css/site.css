@@ -8,12 +8,15 @@ body {
 }
 
 header nav,
-footer.page-footer {
+footer.page-footer,
+header nav .sidenav {
 	background-color: #efffde;
 	color: #183442;
 }
 
-header nav 
+header nav .sidenav li > a {
+	font-size: 22px;
+}
 
 footer.page-footer .footer-copyright {
 	background-color: rgba(239, 255, 222, 0.08);
@@ -28,8 +31,12 @@ header nav ul a,
 	color: #183442;
 }
 
+header nav .sidenav-trigger {
+	color: #183442;
+}
+
 header nav .brand-logo {
-	font-size: 3.1rem;
+	font-size: 2.1rem;
 }
 
 header nav ul a {
